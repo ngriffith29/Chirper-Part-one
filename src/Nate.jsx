@@ -5,8 +5,8 @@ class Nate extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary justify-content-center">
-          <h1 class="navbar-brand, text-white">Chirper</h1>
+        <nav className="navbar navbar-expand-lg navbar-light bg-primary justify-content-center">
+          <h1 className="navbar-brand, text-white">Chirper</h1>
         </nav>
       </div>
     );

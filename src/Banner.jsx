@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap'
+
 
 class Banner extends Component {
     render() {
         return (
 
-            <div class="jumbotron bg-danger">
-                <h1 class="text-center">Welcome To chirper</h1>
-                <p class="text-center text-white">(It's like twitter but without Politicians)</p>
+            <div className="jumbotron bg-danger">
+                <h1 className="text-center">Welcome To chirper</h1>
+                <p className="text-center text-white">(It's like twitter but without Politicians)</p>
             </div>
         )
     }

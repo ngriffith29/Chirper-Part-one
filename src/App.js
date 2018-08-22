@@ -6,6 +6,7 @@ import Nate from './Nate';
 import { Button } from 'react-bootstrap'
 import Banner from './Banner'
 import User from './user'
+import Timeline from './Timeline'
 class App extends Component {
   render() {
     return (
@@ -13,7 +14,8 @@ class App extends Component {
         <Nate />
         <Banner />
         <User />
-
+        <br />
+        <Timeline />
       </div>
     );
   }
