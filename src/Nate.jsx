@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Navbar } from 'react-bootstrap';
 
 class Nate extends Component {
   render() {
     return (
       <div>
-       <h1>hey yall</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary justify-content-center">
+          <h1 class="navbar-brand, text-white">Chirper</h1>
+        </nav>
       </div>
     );
   }
