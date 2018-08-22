@@ -15,10 +15,12 @@ class User extends Component {
     render() {
         return (
             <div>
-                <input id="name" placeholder="Type your name here"></input>
-                <br />
-                <input id='chirp' placeholder="Type your chirp here"></input>
-                <br />
+                <input className="justify-content-center" id="name" placeholder="Type your name here"></input>
+
+                <div class="form-group">
+                    <textarea placeholder="Type Your Chirp Here" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                </div>
+
                 <button onClick={this.buttonClick}>Post your chirp</button>
 
 
