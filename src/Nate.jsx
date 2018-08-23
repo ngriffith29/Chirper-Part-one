@@ -6,7 +6,7 @@ class Nate extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-primary justify-content-center">
-          <h1 className="navbar-brand, text-white">Chirper</h1>
+          <h1 className="navbar-brand, text-black">Chirper</h1>
         </nav>
       </div>
     );

@@ -35,7 +35,7 @@ class User extends Component {
                     <textarea placeholder="Type Your Chirp Here" class="form-control" id="exampleFormControlTextarea1" rows="2" value={this.state.Chirp} onChange={(event) => this.handleChirpChange(event)} />
                 </div>
 
-                <button onClick={this.buttonClick}>Post your chirp</button>
+                <button onClick={this.buttonClick}>Push your chirp to the world</button>
              {this.renderTimeline()}
             
 

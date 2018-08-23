@@ -6,7 +6,7 @@ import Nate from './Nate';
 import { Button } from 'react-bootstrap'
 import Banner from './Banner'
 import User from './user'
-import Th from './TimelineHeader'
+import Jumbotron from './TimelineHeader'
 import Timeline from './Timeline'
 class App extends Component {
   render() {
@@ -14,10 +14,13 @@ class App extends Component {
       <div>
         <Nate />
         <Banner />
-        <User />
-        <br />
-        <Th />
         <Timeline />
+        <User />
+
+        <br />
+       
+        <Jumbotron />
+       
       </div>
     );
   }

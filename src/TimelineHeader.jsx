@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Th extends Component {
+class Jumbotron extends Component {
     render() {
         return (
             <div>
@@ -13,4 +13,4 @@ class Th extends Component {
     }
 }
 
-export default Th;
+export default Jumbotron;
